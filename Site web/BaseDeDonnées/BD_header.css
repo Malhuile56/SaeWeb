@@ -39,9 +39,10 @@ nav > ul{
     list-style-type: none;
     text-align: center;
     width: 100%;
-    height: 5vw;
+    height: 2vh;
     padding-left: 0vw;
-    padding-top: 2.6vw;
+    padding-top: 2vh;
+    padding-bottom: 4vh;
 }
 
 nav > li{
