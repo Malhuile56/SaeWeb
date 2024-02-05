@@ -1,22 +1,50 @@
+/* *{
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+}
+
 main {
     margin-top: 3vh;
     margin-left: 2vw;
-    display: flex;
 }
 
 main h2 {
     margin-top: 2vh;
     margin-bottom: 2vh;
-    color: ;
+    color: purple;
+    text-decoration: underline;
 }
-main > img {
+
+main img {
     height: 20vh;
     width: 20vw;
-    flex-basis: 40%;
+    margin-left: 10vh;
 }
 
 main:first-child {
-    
+    display: flex;
+    flex-wrap: nowrap;
+}
+
+main:first-child > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 60%;
+    flex-grow: 0;
+}
+
+main:first-child > div > p{
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+
+main:first-child > div > h2{
+    flex-basis: 100%;
+    flex-grow: 0;
+}
+
+main:first-child > img {
+    flex-basis: 30%;
+    flex-grow: 1;
 }
 
 main h3 {
@@ -26,4 +54,67 @@ main h3 {
 main p {
 
 }
+ */
 
+
+
+
+
+main {
+    margin: 4vh;
+}
+
+
+ h2 {
+    font-size: 2.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: purple;
+    text-decoration: underline;
+    margin-top: 5px;
+    margin-left: 5px;
+}
+
+.métiers p {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.intro {
+    display: flex;
+    flex-wrap: nowrap;
+    margin-bottom: 5vh;
+}
+.intro > div {
+    display: flex;
+    flex-wrap: wrap;
+    flex-basis: 70%;
+    flex-grow: 1;
+}
+
+.intro > div> p {
+    font-size: 2em;
+    margin-top: 6vh;
+    margin-left: 2vw;
+    flex-grow: 1;
+    flex-basis: 100%;
+}
+
+.intro > img{
+    flex-grow: 0;
+    flex-basis: 30%;
+    width: 10vw;
+    height: 40vh;
+    margin-left: 100px;
+    margin-right: 200px;
+    margin-top: 30px;
+}
+
+.métiers h3 {
+    color: purple;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 2em;
+    text-decoration: underline;
+    margin-top: 1vh;
+    margin-bottom: 1vh;
+}
