@@ -1,0 +1,45 @@
+h2 {
+    font-size: 3em;
+    color: purple;
+    font-weight: 600;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3 {
+    font-size: 1.5em;
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: normal;
+    color: purple;
+    text-decoration: underline;
+}
+
+p {
+    font-size: 1em;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section {
+    display: flex;
+    flex-wrap: nowrap;
+}
+section > h2 {
+    flex-grow: 0;
+    flex-basis: 10%;
+    text-decoration: underline;
+}
+section > p {
+    font-size: 1.5em;
+    margin-top: 50px;
+    flex-grow: 1;
+    flex-basis: 60%;
+}
+
+section > img{
+    flex-grow: 0;
+    flex-basis: 30%;
+    width: 10vw;
+    height: 50vh;
+    margin-left: 200px;
+    margin-right: 100px;
+    margin-top: 30px;
+}

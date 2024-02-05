@@ -1,0 +1,29 @@
+main {
+    margin-top: 3vh;
+    margin-left: 2vw;
+    display: flex;
+}
+
+main h2 {
+    margin-top: 2vh;
+    margin-bottom: 2vh;
+    color: ;
+}
+main > img {
+    height: 20vh;
+    width: 20vw;
+    flex-basis: 40%;
+}
+
+main:first-child {
+    
+}
+
+main h3 {
+
+}
+
+main p {
+
+}
+
