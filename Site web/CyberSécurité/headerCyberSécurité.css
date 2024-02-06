@@ -3,8 +3,8 @@
 }
 
 header h1 {
-    color:purple;
-    font-size: 5em;
+    color:rgb(41, 73, 117);
+    font-size: 15vh;
     font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
     font-style: initial;
     flex-basis:85%;
@@ -24,7 +24,7 @@ header section img {
 
 /* =================================================== */
 
-nav > ul{
+/* nav > ul{
     list-style-type: none;
     text-align: center;
     width: 100%;
@@ -54,4 +54,33 @@ nav{
     background-color: purple;
     flex-wrap: wrap;
     flex-basis: 90%;
+} */
+
+nav{
+    background-color: rgb(13, 36, 68);
+}
+nav > ul{
+    list-style-type: none;
+    text-align: center;
+    width: 100%;
+    height: 3.5vw;
+    padding-left: 0vw;
+    padding-top: 1vw;
+}
+li {
+    display: inline;
+    font-weight: bold;
+    font-size: 2vw;
+    padding-right: 2vw;
+    padding-left: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1.25vw;
+}
+a{
+    text-decoration: none;
+    color: aliceblue;
+}
+li:hover{
+    background-color: rgb(143, 143, 143);
+    border-radius: 0.2vw;
 }

@@ -1,75 +1,17 @@
-/* *{
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+* {
+    font-family: Arial, Helvetica, sans-serif;
 }
-
-main {
-    margin-top: 3vh;
-    margin-left: 2vw;
-}
-
-main h2 {
-    margin-top: 2vh;
-    margin-bottom: 2vh;
-    color: purple;
-    text-decoration: underline;
-}
-
-main img {
-    height: 20vh;
-    width: 20vw;
-    margin-left: 10vh;
-}
-
-main:first-child {
-    display: flex;
-    flex-wrap: nowrap;
-}
-
-main:first-child > div {
-    display: flex;
-    flex-wrap: wrap;
-    flex-basis: 60%;
-    flex-grow: 0;
-}
-
-main:first-child > div > p{
-    flex-basis: 100%;
-    flex-grow: 0;
-}
-
-main:first-child > div > h2{
-    flex-basis: 100%;
-    flex-grow: 0;
-}
-
-main:first-child > img {
-    flex-basis: 30%;
-    flex-grow: 1;
-}
-
-main h3 {
-
-}
-
-main p {
-
-}
- */
-
-
-
-
 
 main {
     margin: 4vh;
 }
 
 
- h2 {
+h2 {
     font-size: 2.5em;
     font-family: Arial, Helvetica, sans-serif;
     font-style: normal;
-    color: purple;
+    color: rgb(13, 36, 68);
     text-decoration: underline;
     margin-top: 5px;
     margin-left: 5px;
@@ -77,7 +19,6 @@ main {
 
 .métiers p {
     font-size: 1.5em;
-    font-family: Arial, Helvetica, sans-serif;
 }
 
 .intro {
@@ -96,8 +37,8 @@ main {
     font-size: 2em;
     margin-top: 6vh;
     margin-left: 2vw;
-    flex-grow: 1;
     flex-basis: 100%;
+    font-style: justify;
 }
 
 .intro > img{
@@ -111,7 +52,6 @@ main {
 
 .métiers h3 {
     color: purple;
-    font-family: Arial, Helvetica, sans-serif;
     font-size: 2em;
     text-decoration: underline;
     margin-top: 5vh;
@@ -120,39 +60,34 @@ main {
 }
 
 
+.métiers {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.métiers section {
+    margin-left: 3vw;
+    margin-right: 3vw;
+}
+
+.métiers div {
+    flex-basis: 40%;
+    padding-bottom: 3vw;
+    padding-left: 2vw;
+    padding-right: 1vw;
+    padding-top: 3vw;
+    margin: 1vw;
+    border: 0.4vw solid rgb(83, 83, 83);
+    background-color: rgb(185, 185, 185);
+    border-radius: 3em;
+}
 
 
-.Analyste p {
-    border: solid black 2px;
-    border-radius: 2em;
+.Analyste, .Consultant {
+    flex-wrap: nowrap;
+}
+
+
+.métiers p {
     padding: 2vw;
-}
-
-.Analyste p:hover {
-    background-color: rgb(220, 238, 255);
-}
-
-
-
-.Consultant p {
-    border: solid black 2px;
-    border-radius: 2em;
-    padding: 2vw;
-}
-
-.Consultant p:hover {
-    background-color: rgb(220, 238, 255);
-}
-
-
-
-
-.Pentester p {
-    border: solid black 2px;
-    border-radius: 2em;
-    padding: 2vw;
-}
-
-.Pentester p:hover {
-    background-color: rgb(220, 238, 255);
 }
